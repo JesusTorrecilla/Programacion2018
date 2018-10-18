@@ -25,7 +25,7 @@ session_start();
               $_SESSION['usuario'] = $usuario;
               $_SESSION['login'] = 1;
               echo "si";
-               header('Location: ejercicio7c.php');
+              header('Location: ejercicio7c.php');
     }
     else{
        header('Location: ejercicio7.php');

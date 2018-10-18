@@ -14,6 +14,7 @@ session_start();
     }
     else {
     echo "Debe iniciar sesion para acceder a esta pagina";
+    header("Location: ejercicio7.php");
     }
     ?>
 
